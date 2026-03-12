@@ -1,0 +1,11 @@
+{
+  "id": "memory-smart",
+  "kind": "memory",
+  "name": "Smart Memory",
+  "description": "智能记忆系统，支持时间任务提醒、上下文记忆和自适应实体提取",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

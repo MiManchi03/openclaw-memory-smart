@@ -1,0 +1,36 @@
+{
+  "name": "@openclaw/memory-smart",
+  "version": "2026.3.11",
+  "private": false,
+  "description": "Smart Memory System - 智能记忆系统，支持时间任务、上下文记忆和自适应实体提取",
+  "type": "module",
+  "main": "./plugin.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/memory-smart"
+  },
+  "keywords": [
+    "openclaw",
+    "memory",
+    "ai",
+    "smart-memory",
+    "reminder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "openclaw": ">=2026.1.26"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.32.0"
+  },
+  "openclaw": {
+    "extensions": [
+      "./plugin.ts"
+    ]
+  }
+}
