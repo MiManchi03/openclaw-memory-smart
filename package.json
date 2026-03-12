@@ -1,10 +1,25 @@
 {
-  "name": "@openclaw/memory-smart",
-  "version": "2026.3.11",
+  "name": "openclaw-memory-smart",
+  "version": "1.0.0",
   "private": false,
   "description": "Smart Memory System - 智能记忆系统，支持时间任务、上下文记忆和自适应实体提取",
   "type": "module",
-  "main": "./plugin.ts",
+  "main": "./dist/plugin.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./plugin": {
+      "import": "./dist/plugin.js",
+      "types": "./dist/plugin.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "openclaw.plugin.json"
+  ],
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit"
@@ -20,7 +35,7 @@
     "smart-memory",
     "reminder"
   ],
-  "author": "",
+  "author": "luofuliang <1092251982@qq.com>",
   "license": "MIT",
   "peerDependencies": {
     "openclaw": ">=2026.1.26"
