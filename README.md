@@ -1,9 +1,9 @@
 # @openclaw/memory-smart
 
-智能记忆系统插件，为 OpenClaw 提供强大的记忆管理能力。
+模仿艾宾浩斯记忆机制开发的智能记忆系统插件，为 OpenClaw 提供强大的记忆管理能力。
 
-[![npm version](https://img.shields.io/npm/v/@openclaw/memory-smart.svg)](https://www.npmjs.com/package/@openclaw/memory-smart)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm版本](https://img.shields.io/npm/v/@openclaw/memory-smart.svg)](https://www.npmjs.com/package/@openclaw/memory-smart)
+[![许可证：MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 功能特性
 
